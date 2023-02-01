@@ -2,10 +2,21 @@
   width: 50px;
   height: 200px;
   float: left;
+  border: 1px solid red;
+  animation: widen-border;
 }
 
 .img-border {
-  border: 5px solid red;
+  animation: border 4s;
+}
+
+@keyframes border {
+  from {
+    border-width: 1px;
+  }
+  to {
+    border-width: 10px;
+  }
 }
 
 #gallery {
