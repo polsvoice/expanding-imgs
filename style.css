@@ -3,14 +3,16 @@
   height: 200px;
   float: left;
   border: 1px solid red;
-  animation: widen-border;
+  /* animation: widen-border; */
+  transition: 4s;
 }
 
 .img-border {
-  animation: border 4s;
+  /* animation: border 4s; */
+  border-width: 10px;
 }
 
-@keyframes border {
+/* @keyframes border {
   from {
     border-width: 1px;
   }
@@ -18,7 +20,7 @@
     border-width: 10px;
   }
 }
-
+ */
 #gallery {
   margin: 10vw 1vw 2vw 10vw;
 }
