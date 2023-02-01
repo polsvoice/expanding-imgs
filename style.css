@@ -1,11 +1,11 @@
-.imgDiv {
+.img-div {
   width: 50px;
   height: 200px;
   float: left;
 }
 
-.gallery-img {
-  width: 400px;
+.img-border {
+  border: 5px solid red;
 }
 
 #gallery {
